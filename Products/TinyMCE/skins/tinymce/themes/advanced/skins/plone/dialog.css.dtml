@@ -12,12 +12,20 @@ background: transparent;
 font-size: 110%;
 padding: 1em 1em 0em 1em;
 background: &dtml-backgroundColor;;
-margin: 0!important; 
+margin: 0!important;
 }
 
+.dialog-wrapper h2 {
+    font-size: 1em;
+    font-family: Arial,FreeSans,sans-serif;
 }
 
+/* No upload button */
+#plonebrowser a#upload {
+    display: none;
 }
+
+
 .dialog-wrapper table.listing {
 margin: 0em;
 }
